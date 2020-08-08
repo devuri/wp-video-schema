@@ -1,0 +1,40 @@
+[
+    {
+        "name": "wpscholar/wp-structured-video-data",
+        "version": "1.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/wpscholar/wp-structured-video-data.git",
+            "reference": "6308c1c2ffc8392d7632ffa59332ca5711f88c70"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/wpscholar/wp-structured-video-data/zipball/6308c1c2ffc8392d7632ffa59332ca5711f88c70",
+            "reference": "6308c1c2ffc8392d7632ffa59332ca5711f88c70",
+            "shasum": ""
+        },
+        "time": "2019-05-28T15:41:48+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "files": [
+                "bootstrap.php"
+            ],
+            "psr-4": {
+                "wpscholar\\WordPress\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-2.0-or-later"
+        ],
+        "authors": [
+            {
+                "name": "Micah Wood",
+                "email": "micah@wpscholar.com"
+            }
+        ],
+        "description": "Structured data for video embeds in WordPress."
+    }
+]
